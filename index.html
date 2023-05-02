@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>Museu Nacional</title>
+     <meta charset="utf-8"/>
+     
+     <!-- customização css -->
+     <link rel="stylesheet" type="text/css" href="css/estilo.css">
+     
+     <!-- normalize css -->
+	 <link rel="stylesheet" type="text/css" href="css/normalize.css">	 
+		
+	<!-- [if lt IE 9] >
+	<script scr="https://cdnjs.cloudflare.com/ajax/libs/
+	html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<! [endif] -->
+
+ </head>
+ <body>
+	<div id="container"> <!-- inicio container -->
+		<header> <!-- inicio header -->
+			<div id="logo">
+				<h1><a href="#">Museu Nacional</a></h1>
+			</div>
+			
+			<nav> <!-- inicio nav -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Exposições</a></li>
+					<li><a href="#">Pesquisa</a></li>
+					<li><a href="#">Acervo</a></li>	
+					<li><a href="#">Vídeos</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="#">Contato</a></li>		
+				</ul>
+			</nav> <!-- fim nav -->
+		</header> <!-- fim header -->
+		<div id="principal"> <!-- inicio principal -->
+			<div id="conteudo">
+				<section id="capa">
+					<img src="imagens/museu.png">
+				</section>
+				
+				<section id="postagens">
+					<article id="video">
+						<h3>Vídeo: conheça o museu</h3>
+						<iframe width="310" height="170" 
+						src="https://www.youtube-nocookie.com/embed/RGUYb-hivrc" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; 
+						encrypted-media; gyroscope; picture-in-picture" 
+						allowfullscreen>
+						</iframe>
+					</article>
+						
+					<article id="mapa">
+						<h3>Mapa: encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.
+						2063116653203!2d-43.228717585428996!3d-22.905759985012335!2m3!1f0!2f0!3
+						f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38
+						ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1663674450745!
+						5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" 
+						loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</article>
+					
+				   <article id="exposicoes">
+				   		<h3>Exposições</h3>
+				   		<ul>
+				   			<li><a href="#">Os assustadores insetos</a></li>
+				   			<li><a href="#">O crânio da Luzia: a mulher mais antiga do Brasil</a></li>
+				   			<li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+				   			<li><a href="#">Plantas do Brasil central</a></li>
+				   			<li><a href="#">Tereza Cristina: A imperatriz arqueóloga]</a></li>
+				   			<li><a href="#">Paleoarte: arte com dinossouros</a></li>
+				   			<li><a href="#">Os assustadores insetos</a></li>
+				   			<li><a href="#"> <strong>Veja todos (65)</strong></a></li>
+				   		</ul>
+				   </article>
+				   
+				   <article id="historia">
+				   		<h3>200 anos de história</h3>
+				   		<p>Inicialmente chamada Museu Real, 
+				   		a criação dessa instituição foi uma das 
+				   		iniciativas de Dom João VI para promover 
+				   		o crescimento socioeconômico do Brasil, 
+				   		por meio da difusão de educação, cultura 
+				   		e ciência.
+				   		</p>
+				   		<a href="#"><strong>Leia mais</strong> </a>
+				   </article>
+				</section>
+			</div>
+			<aside> <!-- inicio barra lateral | aside -->
+				<section id="depoimento">
+					<img src="imagens/depoimento.png">
+				</section>
+				
+				<section id="visita"> <!-- inicio secão visita -->
+					<h4>Faça uma visita!</h4>
+					<form>
+						<fieldset>
+							<legend id="apagar">Selecione uma data</legend>
+							
+							<label for="data">Data</label>
+							<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+						
+							<label for="qtd">Qtd. de Pessoas</label>
+							<input class="campo" style="width:30px;" type="text" id="qtd" value="1">
+						
+						</fieldset>
+						
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+					</form>
+				</section> <!-- fim secão visita -->
+				
+				<section id="galeria"> <!-- inicio secão galeria -->
+					<h1 id="cor">GALERIA</h1>
+					<a href="#">
+						<img src="imagens/imagem1.jpg" height="93px" width="93px">
+					</a>
+					
+					<a href="#">
+						<img src="imagens/imagem2.jpg" height="93px" width="93px">
+					</a>
+					
+					<a href="#">
+						<img src="imagens/imagem3.jpg" height="93px" width="93px">
+					</a>
+					
+					<a href="#">
+						<img src="imagens/imagem4.jpg" height="93px" width="93px">
+					</a>
+				</section> <!-- fim secão galeria -->
+				
+			</aside> <!-- fim barra lateral | aside -->
+			<footer>
+				<p>
+					<a href="#">Home</a>
+					<a href="#">Exposições</a>
+					<a href="#">Pesquisa</a>
+					<a href="#">Acervo</a>
+					<a href="#">Vídeos</a>
+					<a href="#">Fotos</a>
+					<a href="#">Contato</a>
+				</p>
+				<p> 2022 <a href="#">Museu Nacional</a> | Todos os direitos reservados</p>
+			</footer>
+		</div> <!-- fim principal -->
+	</div> <!-- fim container -->
+ </body>
+</html>
+
+
+
